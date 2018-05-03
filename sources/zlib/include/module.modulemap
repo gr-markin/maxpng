@@ -1,6 +1,6 @@
-module Zlib
+module Zlib[system]
 {
-    header "/usr/include/zlib.h"
-    link "z"
+    header "z.h"
+    link "z"    
     export *
 }

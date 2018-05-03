@@ -1,7 +1,7 @@
-#if os(macOS)
+#if os(macOS) || os(iOS)
 import Darwin
 import zlib
-#elseif os(Linux)
+#elseif os(Linux) || os(Android)
 import Zlib
 import Glibc
 #endif
